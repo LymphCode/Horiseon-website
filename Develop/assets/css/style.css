@@ -15,6 +15,7 @@ body {
     color: #ffffff;
 }
 
+
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -37,7 +38,7 @@ body {
 }
 
 .header div ul li {
-    display: inline-block;
+    display: inline;
     margin-left: 25px;
 }
 
