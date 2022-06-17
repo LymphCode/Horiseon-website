@@ -19,7 +19,7 @@ body {
 }
 
 /* this keeps our text within the header */
-.header h1 {
+.header, h1 {
     display: inline-block;
     font-size: 48px;
 }
@@ -30,7 +30,7 @@ body {
 }
 
 /* this keeps our Search Engine Optimization Online Reputation Management Social Media Marketing links in the right hand side of the header */
-.header nav {
+.header, nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,12 +39,12 @@ body {
 }
 
 /* this gives our Search Engine Optimization Online Reputation Management Social Media Marketing links a text font */
-.header nav ul {
+.header, nav, ul {
     list-style-type: none;
 }
 
 /* this lets us read the Search Engine Optimization Online Reputation Management Social Media Marketing links from left to right */
-.header nav ul li {
+.header, nav, ul, li {
     display: inline;
     margin-left: 25px;
 }
@@ -121,7 +121,7 @@ img, .benefit-lead, .benefit-brand, .benefit-cost {
 }
 
 /* this gives puts our main content colored boxes with colored font */
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+.search-engine-optimization, .online-reputation-management, .social-media-marketing  {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
