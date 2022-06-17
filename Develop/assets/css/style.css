@@ -1,13 +1,16 @@
+/* this resets the default css in our browser */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* this is our background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* this is our headers background display */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +18,18 @@ body {
     color: #ffffff;
 }
 
-
+/* this keeps our text within the header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* this gives color to the seo in Horiseon */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* this keeps our Search Engine Optimization Online Reputation Management Social Media Marketing links in the right hand side of the header */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* this gives our Search Engine Optimization Online Reputation Management Social Media Marketing links a text font */
 .header nav ul {
     list-style-type: none;
 }
 
+/* this lets us read the Search Engine Optimization Online Reputation Management Social Media Marketing links from left to right */
 .header nav ul li {
     display: inline;
     margin-left: 25px;
 }
 
+/* this removes our Search Engine Optimization Online Reputation Management Social Media Marketing links highlighted color and underline.. replacing it with a new, user friendly color and no text decorations*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* this gives our text inside p tags a font size */
 p {
     font-size: 16px;
 }
 
+/* this gives us the websites image displayed as a background under the header and above our main content */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* this makes our images float left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* this makes our images float left */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* this keeps our main content from setretching acroos the webpage */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* this puts our aside content in a colored box and keeps it contained on the right side of the page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,22 +101,26 @@ p {
     background-color: #2589bd;
 }
 
+/* this gives our aside content space and a white foont */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* this keeps our text centerd instead of right to left */
 h3, .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* this keep our images for our main content boxes in  */
 img, .benefit-lead, .benefit-brand, .benefit-cost {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* this gives puts our main content colored boxes with colored font */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing  {
     margin-bottom: 20px;
     padding: 50px;
@@ -112,15 +130,18 @@ img, .benefit-lead, .benefit-brand, .benefit-cost {
     color: #ffffff;
 }
 
+/* this consolidates space within our main content boxes */
 img, .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     max-height: 200px;
 }
 
+/* this gives our main content some space and the text a larger font*/
 h2, .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* this gives our footer a font while keeping it centered and at the bottom of the page */
 .footer {
     padding: 30px;
     clear: both;
@@ -128,6 +149,7 @@ h2, .search-engine-optimization, .online-reputation-management, .social-media-ma
     text-align: center;
 }
 
+/* this keeps our footer text small so it doesn't stick out on the page like the more significant content that the website displays to the user */
 .footer h2 {
     font-size: 20px;
 }
